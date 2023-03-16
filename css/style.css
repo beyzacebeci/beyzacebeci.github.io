@@ -1,6 +1,7 @@
 body{
 
     background-image: url('back.jpg') ;
+   
 }
 table td{
     border: 0px solid rgb(82, 164, 192); 
@@ -13,3 +14,10 @@ table td{
     margin-right: auto;
 
  }
+
+ .navbar {
+    background: #085E7D;
+}
+.bg-dark {
+    background: #085E7D !important;
+}
