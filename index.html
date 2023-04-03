@@ -1,73 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-      
-    <title>Document</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Beyza Cebeci</title>
+  <link rel="icon" type="image/x-icon" href="images/avatar.png">
+
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <script src="script.js"></script>
 
 </head>
+
 <body>
 
-    
-    <div class ="header">
-        <nav>
-          <div class="navbar-content">
-            <ul class="navbar-ul">
-                <li class="navbar-li"><a href="#">Home</a></li>
-                <li class="navbar-li"><a href="#">About</a></li>
-                <li class="navbar-li"><a href="#">Contact</a></li>
 
-            </ul>
-          </div>         
-        </nav>
+  <div class="navbar">
+    <a href="">Home</a>
+    <a href="#about" >About</a>
+    <a href="">Contact</a>
+    <div class="nav-input" id="nav-input">
+        <button onclick="inputAl()">Search</button>        
+        <input type="">
+
     </div>
 
 
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="personalInfo">
-                <div >                       
-                        <img src="images/avatar.png" style="float:left" alt="">
-                        <h1>Beyza Cebeci</h1>    
-                        <a href="https://github.com/beyzacebeci" ><img src="images/GitHub-Mark.png" alt="" width="30" height="30"></a>
-                        <a href="https://www.linkedin.com/in/beyza-cebeci-409727195/"><img src="images/linkedln.png" alt="" width="30" height="30"></a>
-                        <a href="https://www.instagram.com/bcebecii/?igshid=ZDdkNTZiNTM%3D"><img src="images/instagram.png" alt="" width="30" height="30"></a>                                 
-                </div> 
-                
-            
-      
-            </div>
-                  
-        </div>
-          <div class="col">
-                    <div  class="education">
-                        
-                            <ul>
-                                <li> <strong> EDUCATION   </strong></li>
-                                <li>Marmara University Computer Engineering</li>                        
-                            </ul>    
-                       </div>
-            </div>
-          </div>
-        </div>
     
-              
 
-        <div class="footer">
-            <div class="footer-container">
-                <span>All Right Reserved @2025</span>
-            </div>
+
+  </div>
+
+    <div class="container">
+
+      <div class="item-1">
+        <div><img src="images/avatar.png" alt=""></div>
+
+        <div>
+          <h1>Beyza Cebeci</h1>
         </div>
-     
-    
+
+        <div class="social-media">
+          <a href="https://github.com/beyzacebeci"><img src="images/GitHub-Mark.png" alt="" width="30" height="30"></a>
+          <a href="https://www.linkedin.com/in/beyza-cebeci-409727195/"><img src="images/linkedln.png" alt="" width="30"
+              height="30"></a>
+          <a href="https://www.instagram.com/bcebecii/?igshid=ZDdkNTZiNTM%3D"><img src="images/instagram.png" alt=""
+              width="30" height="30"></a>
+        </div>
+
+      </div>
+
+      <div class="item-2">
+        <!-- <h3 id="about"><strong> ABOUT </strong></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, pariatur?</p> -->
+        <div class="education">
+          <ul>
+            <h3><strong> EDUCATION </strong></h3>
+            <li>Kadir Has Anatolian High School</li>
+            <li>Marmara University Computer Engineering</li>
+          </ul>
+        </div>
+
+        <div class="knowledge">
+          <ul>
+            <h3> <strong> EXPERIENCE </strong></h3>
+            <li>Yapı Kredi - Intern </li>
+            <li>T3 Foundation - Educator&Mentor</li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <ul>
+            <h3><strong> CONTACT </strong></h3>
+
+            <li>Maltepe , ISTANBUL </li>
+            <li>beyzacebeci34@gmail.com</li>
+          </ul>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+  <div class="footer">
+    <p>All Right Reserved @2025</p>
+
+  </div>
+
+
 
 </body>
+
 </html>

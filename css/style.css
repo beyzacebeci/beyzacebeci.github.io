@@ -1,93 +1,74 @@
-
 body {
-    background-color: lightblue;
-    margin: 0;
-    
-}
-
-.header {
-    background-color:  #085E7D;
-    color: #fff;
-    margin: 0;
-   
-    
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    
-  }
-  
-  ul{
-    list-style: none;
-  }
-
-  .navbar-ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
- .navbar-li {
-    margin: 0 10px;
-  }
- 
-  
-
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-
-.personalInfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
+  margin: 0;
+  background-color: gainsboro;
+/*   
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%; */ 
 
 }
 
- 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .col {
-    flex-basis: 50%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
+/* .mainSection {
+  flex-grow: 1;
+} */
 
-  .footer {
-    flex: display;
-    justify-content: center;
-    align-items: center;
-    background-color: #085E7D;
-    color: white;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 60px;
-  }
-
-
-  .footer-container {
-    text-align:center;
+ul {
+  list-style: none;
 }
 
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
 
- 
+.navbar {
+  
+  position: sticky;
+  top:  0; 
+  background-image: linear-gradient(to right,#3983a8 , #7799ff);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  
+  box-sizing: border-box;
+
+
+}
+
+.container {  
+  display:flex;
+
+  justify-content:flex-start; 
+/*   background-color: #7799ff;
+ *//*   align-items: stretch; */
+}
+.container .item-1 {
+/*   background-color: whitesmoke;
+ */  flex-basis: 300px;
+  margin: 10px;
+
+}
+.container .item-2 {
+/*   background-color: whitesmoke;
+ */  flex-grow: 1;
+  margin: 10px;
+}
+
+
+.footer {
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(to right,#3983a8 , #7799ff);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+
+  box-sizing: border-box;
+}
