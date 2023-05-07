@@ -47,25 +47,9 @@ a {
 
 }
 
-.main {
-  background-color: gainsboro;
-
+.footer {
+  font-size : 13px;
+  color: rgb(196, 189, 189);
 }
-
-@media (min-width: 992px) {
-  .header {
-    min-height: 100vh;
-    width: var(240px);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .navbar-brand img {
-    border: 10px solid var(--color-brand2);
-  } }
-
-
-
-
 
 
